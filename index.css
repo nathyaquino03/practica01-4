@@ -1,0 +1,88 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #0e0e0d;
+    background-color: #c5fa08;
+}
+
+/* Contenedor general */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Cabecera */
+header {
+    background: #131212;
+    color: #c6fc02;
+    padding: 1rem 0;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Secciones */
+section {
+    padding: 2rem 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Estilo de los postres */
+.dessert {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.dessert img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.dessert h3 {
+    margin-top: 0.5rem;
+}
+
+/* Pie de página */
+footer {
+    background: #050505;
+    color: #b5fc0f;
+    text-align: center;
+    padding: 1rem 0;
+}
+
